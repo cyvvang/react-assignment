@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Mono", monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.large-text {
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.small-text {
+  font-size: 0.875rem;
+  line-height: 150%;
+}
+
+img {
+  width: 100%;
+}
