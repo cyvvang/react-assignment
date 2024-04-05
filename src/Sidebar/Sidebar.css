@@ -1,0 +1,23 @@
+.side-bar {
+  height: 100%;
+  width: 6.25rem;
+  padding: 1rem;
+  position: fixed;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border-right: 1px solid #000;
+  background: #fff;
+  z-index: 1;
+}
+
+.side-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.side-bar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}

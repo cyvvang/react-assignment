@@ -1,0 +1,78 @@
+.card-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 1rem 1rem 9.25rem;
+}
+
+.card {
+  flex: 1 0 21%;
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: 150ms ease-in-out;
+}
+
+.hidden-flex-item {
+  content: "";
+  flex: 1 0 21%;
+  padding: 1rem;
+  visibility: hidden;
+}
+
+.heart-icon {
+  transition: 150ms;
+}
+
+.heart-icon:hover {
+  transform: scale(150%);
+  color: #f74a49;
+  fill: #f74a49;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: rotate(5deg);
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+} 
+
+.release {
+  font-size: 0.875rem;
+}
+
+.img-container {
+  border-radius: 0.75rem;
+  object-fit: cover;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+}
+
+.song-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.artist {
+  font-size: 0.875rem;
+}
