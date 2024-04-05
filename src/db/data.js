@@ -226,7 +226,7 @@ const data = [
     year: "2024",
     heart: <LuHeart />,
     img: "./images/i-got-you.png",
-    title: "I GOT YOU,",
+    title: "I GOT YOU",
     artist: "TWICE",
     songType: "single",
     url: "https://open.spotify.com/track/35dhwUoJNlxrPyEIJkfDnx",
