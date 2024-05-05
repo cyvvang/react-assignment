@@ -5,7 +5,7 @@ import React from "react";
 function Nav({ handleYearClick, handleTypeClick, handleClearFilters }) {
   return (
     <div className='top-nav'>
-      <h1>Recent K-Pop Favorites ⋆ೀ˚⟡˖</h1>
+      <h1>K-Bops ⋆ೀ˚⟡˖</h1>
       
       <div className="filter-container">
         <div className="col">
